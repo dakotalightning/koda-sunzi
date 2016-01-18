@@ -1,6 +1,6 @@
 # Server provisioning recipes
 
-These recipes will provision a server for a Rails 4.2.4 app, using [Capistrano 3.1](http://capistranorb.com/), for deployment. It will install nginx, rbenv (and Ruby), node.js, redis, and mysql. It also creates a deploy user, and sets up the environment for deployment.
+These recipes will provision a server for a Rails 4.2.4 app, using [Capistrano 3.1](http://capistranorb.com/), for deployment to Digital Ocean. It will install nginx, rbenv (and Ruby), node.js, redis, and mysql. It also creates a deploy user, and sets up the environment for deployment.
 
 This recipe installs ppa's to make sure apt installs the latest software.
 
